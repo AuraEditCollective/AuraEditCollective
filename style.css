@@ -23,12 +23,13 @@ h1, h2, h3 {
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 60px 20px;
   min-height: 450px;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center;  /* center vertically */
+  align-items: center;      /* center horizontally */
+  text-align: center;
+  padding: 20px;
 }
 
 /* === Hero Header Content === */
