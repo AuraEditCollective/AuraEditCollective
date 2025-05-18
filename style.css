@@ -6,7 +6,6 @@ h1, h2, h3 {
   font-family: 'Poetsen One', cursive;
 }
 
-
 .hero-header {
   background-image: url('images/header-bg.png'); /* Update path if needed */
   background-size: cover;
