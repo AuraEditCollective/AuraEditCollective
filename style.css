@@ -18,23 +18,22 @@ h1, h2, h3 {
 
 /* === Hero Header === */
 .hero-header {
-  position: relative;
   background-image: url('images/header-bg.png');
   background-size: cover;
   background-position: center;
   color: white;
-  height: 450px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  height: 80px-20px
 }
 
-hero-header .hero-content {
-  background-color: rgba(0, 0, 0, 0.5); /* optional dark overlay */
-  padding: 20px;
-  border-radius: 10px;
-  }
+.hero-header h1 {
+  margin: 0 0 10px;
+  font-size: 3rem;
+}
+
+.hero-header p {
+  margin: 0;
+  font-size: 1.3rem;
+}
 
 /* === About Us Section === */
 .about-us {
