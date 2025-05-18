@@ -1,14 +1,11 @@
 body {
-  font-family: 'Hind Siliguri', sans-serif; 
-  margin: 0;
-  padding: 0;
-  background-color: #fff;
-  color: #333;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 
 h1, h2, h3 {
   font-family: 'Poetsen One', cursive;
 }
+
 
 .hero-header {
   background-image: url('images/header-bg.png'); /* Update path if needed */
