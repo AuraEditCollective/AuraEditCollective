@@ -3,12 +3,22 @@ body {
   font-family: 'Hind Siliguri', sans-serif;
 }
 
+.logo {
+  position: absolute;   /* places it independently */
+  top: 20px;            /* from the top */
+  left: 20px;           /* from the left */
+  width: 80px;          /* control the size here */
+  height: auto;         /* keeps the aspect ratio */
+  z-index: 10;          /* above background */
+}
+
 h1, h2, h3 {
   font-family: 'Poetsen One', cursive;
 }
 
 /* === Hero Header === */
 .hero-header {
+  position: relative;
   background-image: url('images/header-bg.png'); /* make sure the image file is in images/ folder */
   background-size: cover;
   background-position: center;
