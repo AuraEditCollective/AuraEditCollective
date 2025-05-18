@@ -24,7 +24,7 @@ h1, h2, h3 {
   background-size: cover;
   background-position: center;
   color: white;
-  min-height: 600px;
+  min-height: 500px;
   position: relative;
   display: flex;
   align-items: center;
