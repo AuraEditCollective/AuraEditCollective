@@ -20,7 +20,7 @@ h1, h2, h3 {
 
 /* === Hero Header with background image === */
 .hero-header {
-  background-image: url('images/header-bg.png');
+  background-image: url('images/stripecover.png');
   background-size: cover;
   background-position: center;
   color: white;
