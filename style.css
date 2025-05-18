@@ -67,6 +67,35 @@ what-we-have-been-liking h2 {
   font-family: 'Poetsen One', cursive; /* optional: use your heading font */
 }
 
+/* Style for the horizontal post list */
+.post-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* space between items */
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap; /* allows wrapping on small screens */
+}
+
+.post-list li {
+  margin: 0;
+}
+
+.post-list a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.post-list a:hover {
+  background-color: #ddd;
+}
+
 main ul {
   list-style: none;
   padding: 0;
