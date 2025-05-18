@@ -36,16 +36,6 @@ hero-header .hero-content {
   border-radius: 10px;
   }
 
-.hero-header h1 {
-  margin: 0 0 60px;
-  font-size: 3rem;
-}
-
-.hero-header p {
-  margin: 0 0 30px;
-  font-size: 1.3rem;
-}
-
 /* === About Us Section === */
 .about-us {
   max-width: 700px;
