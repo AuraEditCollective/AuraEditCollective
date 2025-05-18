@@ -61,10 +61,10 @@ main {
 }
 
 what-we-have-been-liking h2 {
-  font-size: 2.5rem !important;
-  text-align: center !important;
-  margin-bottom: 30px;
-  font-family: 'Poetsen One', cursive;
+  font-size: 2.6rem;       /* makes the text bigger */
+  text-align: center;      /* centers the text horizontally */
+  margin-bottom: 20px;     /* adds some space below it */
+  font-family: 'Poetsen One', cursive; /* optional: use your heading font */
 }
 
 main ul {
