@@ -44,7 +44,7 @@ h1, h2, h3 {
 }
 
 .about-us h2 {
-  font-size: 2.5rem;       /* makes the text bigger */
+  font-size: 1.5rem;       /* makes the text bigger */
   text-align: center;      /* centers the text horizontally */
   margin-bottom: 20px;     /* adds some space below it */
   font-family: 'Poetsen One', cursive; /* optional: use your heading font */
