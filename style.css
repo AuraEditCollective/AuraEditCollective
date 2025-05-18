@@ -36,7 +36,7 @@ h1, h2, h3 {
 .about-us {
   max-width: 700px;
   margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.4); /* dark translucent background */
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 20px 30px;
   border-radius: 10px;
   font-size: 2.1rem;
@@ -44,10 +44,10 @@ h1, h2, h3 {
 }
 
 .about-us h2 {
-  font-size: 2.6rem;       /* makes the text bigger */
-  text-align: center;      /* centers the text horizontally */
-  margin-bottom: 20px;     /* adds some space below it */
-  font-family: 'Poetsen One', cursive; /* optional: use your heading font */
+  font-size: 2.6rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Poetsen One', cursive;
 }
 
 /* === Main Content === */
@@ -57,6 +57,7 @@ main {
   padding: 0 20px;
 }
 
+/* Bigger and centered heading for the section */
 .what-we-have-been-liking h2 {
   font-size: 2.6rem;
   text-align: center;
@@ -64,18 +65,16 @@ main {
   font-family: 'Poetsen One', cursive;
 }
 
+/* Horizontal links for the list */
 .horizontal-links {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 20px; /* space between links */
   padding: 0;
   list-style: none;
 }
 
 .horizontal-links li {
-  margin: 0;
-}
-.post-list li {
   margin: 0;
 }
 
@@ -120,3 +119,4 @@ footer {
   font-size: 0.9rem;
   border-top: 1px solid #ddd;
 }
+
