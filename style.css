@@ -1,3 +1,4 @@
+/* === Fonts === */
 body {
   font-family: 'Hind Siliguri', sans-serif;
 }
@@ -6,20 +7,22 @@ h1, h2, h3 {
   font-family: 'Poetsen One', cursive;
 }
 
+/* === Hero Header === */
 .hero-header {
-  background-image: url('images/header-bg.png'); /* Update path if needed */
+  background-image: url('images/header-bg.png'); /* make sure the image file is in images/ folder */
   background-size: cover;
   background-position: center;
   color: white;
   padding: 60px 20px;
-  min-height: 450px; /* enough height for all content */
+  min-height: 450px;
   text-align: center;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+/* === Hero Header Content === */
 .hero-header h1 {
   margin: 0 0 10px;
   font-size: 3rem;
@@ -30,10 +33,11 @@ h1, h2, h3 {
   font-size: 1.3rem;
 }
 
+/* === About Us Section === */
 .about-us {
   max-width: 700px;
   margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.4); /* semi-transparent dark bg to keep text readable */
+  background-color: rgba(0, 0, 0, 0.4); /* dark translucent background */
   padding: 20px 30px;
   border-radius: 10px;
   font-size: 1.1rem;
@@ -45,6 +49,7 @@ h1, h2, h3 {
   color: #fff;
 }
 
+/* === Main Content === */
 main {
   max-width: 700px;
   margin: 40px auto;
@@ -73,6 +78,7 @@ main a:hover {
   text-decoration: underline;
 }
 
+/* === Footer === */
 footer {
   text-align: center;
   padding: 20px;
