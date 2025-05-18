@@ -57,7 +57,7 @@ main {
   padding: 0 20px;
 }
 
-what-we-have-been-liking h2 {
+what-we-have-been-liking h3 {
   font-size: 2.6rem;       /* makes the text bigger */
   text-align: center;      /* centers the text horizontally */
   margin-bottom: 20px;     /* adds some space below it */
