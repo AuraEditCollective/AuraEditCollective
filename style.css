@@ -1,87 +1,95 @@
 /* === Fonts === */
 body {
   font-family: 'Hind Siliguri', sans-serif;
-}
-
-.logo {
-  position: absolute;   /* places it independently */
-  top: 20px;            /* from the top */
-  left: 20px;           /* from the left */
-  width: 80px;          /* control the size here */
-  height: auto;         /* keeps the aspect ratio */
-  z-index: 10;          /* above background */
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2, h3 {
   font-family: 'Poetsen One', cursive;
 }
 
-/* === Hero Header === */
+/* === Logo === */
+.logo {
+  width: 80px;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/* === Hero Header with background image === */
 .hero-header {
   background-image: url('images/header-bg.png');
   background-size: cover;
   background-position: center;
   color: white;
-  height: 80px-20px
+  min-height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
 }
 
-.hero-header h1 {
-  margin: 0 0 10px;
+/* Centered text in hero */
+.hero-text {
+  z-index: 1;
+}
+
+.hero-text h1 {
   font-size: 3rem;
+  margin-bottom: 10px;
 }
 
-.hero-header p {
-  margin: 0;
+.hero-text p {
   font-size: 1.3rem;
+  margin: 0;
 }
 
-/* === About Us Section === */
+/* === About Us Section (no background now) === */
 .about-us {
   max-width: 700px;
-  margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 20px 30px;
-  border-radius: 10px;
-  font-size: 2.1rem;
-  line-height: 1.5;
+  margin: 40px auto;
+  padding: 20px;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 .about-us h2 {
-  font-size: 2.6rem;
+  font-size: 2rem;
   text-align: center;
   margin-bottom: 20px;
-  font-family: 'Poetsen One', cursive;
 }
 
-/* === Main Content === */
+/* === Main Section === */
 main {
   max-width: 700px;
   margin: 40px auto;
   padding: 0 20px;
 }
 
-/* Bigger and centered heading for the section */
-.what-we-have-been-liking h2 {
-  font-size: 2.6rem;
+main h2 {
+  font-size: 2.2rem;
   text-align: center;
-  margin-bottom: 20px;
-  font-family: 'Poetsen One', cursive;
+  margin-bottom: 30px;
 }
 
-/* Horizontal links for the list */
+/* === Horizontal Links === */
 .horizontal-links {
   display: flex;
   justify-content: center;
-  gap: 20px; /* space between links */
-  padding: 0;
+  gap: 20px;
   list-style: none;
+  padding: 0;
 }
 
 .horizontal-links li {
   margin: 0;
 }
 
-.post-list a {
+.horizontal-links a {
   display: inline-block;
   padding: 10px 15px;
   background-color: #f0f0f0;
@@ -92,26 +100,8 @@ main {
   transition: background-color 0.3s;
 }
 
-.post-list a:hover {
+.horizontal-links a:hover {
   background-color: #ddd;
-}
-
-main ul {
-  list-style: none;
-  padding: 0;
-}
-
-main li {
-  margin-bottom: 10px;
-}
-
-main a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-main a:hover {
-  text-decoration: underline;
 }
 
 /* === Footer === */
@@ -121,28 +111,4 @@ footer {
   color: #666;
   font-size: 0.9rem;
   border-top: 1px solid #ddd;
-}
-
-.hero-header {
-  background-image: url('images/header-bg.png');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  text-align: center;
-  padding: 80px 20px;
-}
-
-.hero-content {
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.hero-header h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
-.hero-header p {
-  font-size: 1.3rem;
-  margin: 0;
 }
