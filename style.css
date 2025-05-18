@@ -58,10 +58,13 @@ main {
 }
 
 main h2 {
+  main h2 {
   font-size: 2.5rem !important;
-text-align: center !important;
+  text-align: center !important;
   margin-bottom: 30px;
   font-family: 'Poetsen One', cursive;
+}
+
 }
 
 main ul {
