@@ -1,3 +1,12 @@
+.hero-header {
+  background-image: url('path/to/your-image.jpg'); /* Replace with your image path */
+  background-size: cover;          /* Make the image cover the entire header */
+  background-position: center;     /* Center the image */
+  color: white;                    /* Text color */
+  padding: 100px 20px;             /* Space around the text */
+  text-align: center;              /* Center the text */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Makes text readable on image */
+}
 body {
   font-family: sans-serif;
   max-width: 700px;
