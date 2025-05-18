@@ -30,10 +30,10 @@ a:hover {
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 100px 20px;
+  padding: 60px 20px;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-  min-height: 300px; /* or 400px, adjust as needed */
+  min-height: 400px; /* or 400px, adjust as needed */
   display: flex;
   flex-direction: column;
   justify-content: center;
