@@ -64,8 +64,6 @@ main h2 {
   font-family: 'Poetsen One', cursive;
 }
 
-
-
 main ul {
   list-style: none;
   padding: 0;
@@ -92,3 +90,4 @@ footer {
   font-size: 0.9rem;
   border-top: 1px solid #ddd;
 }
+
