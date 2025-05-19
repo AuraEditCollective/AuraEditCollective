@@ -152,3 +152,18 @@ footer {
   color: black;
   margin: 0;
 }
+
+.title-banner-3 {
+  background-image: url('images/redpolka.png');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.title-banner h1 {
+  font-family: 'Poetsen One', cursive;
+  font-size: 3rem;
+  color: black;
+  margin: 0;
+}
