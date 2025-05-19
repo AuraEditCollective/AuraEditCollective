@@ -111,3 +111,6 @@ footer {
   border-top: 1px solid #ddd;
 }
 
+.post-title {
+  margin-top: 80px; /* increase or decrease as needed */
+}
