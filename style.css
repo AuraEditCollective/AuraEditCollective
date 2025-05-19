@@ -114,3 +114,27 @@ footer {
 .post-title {
   margin-top: 80px; /* increase or decrease as needed */
 }
+
+.logo {
+  width: 60px;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.title-banner {
+  background-image: url('../images/butteryellow.png'); /* background for title only */
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.title-banner h1 {
+  color: black;
+  font-family: 'Poetsen One', cursive;
+  font-size: 3rem;
+  margin: 0;
+}
+
