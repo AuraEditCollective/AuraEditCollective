@@ -181,9 +181,14 @@ footer {
   margin-top: 40px;
 }
 
+.image-grid a {
+  display: block;
+}
+
 .image-grid img {
   width: 100%;
   height: auto;
+  display: block;
   border-radius: 8px;
   transition: transform 0.3s;
 }
