@@ -170,38 +170,24 @@ footer {
 
 .image-grid {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  max-width: 1000px;
   margin: 40px auto;
+  max-width: none; /* allow full width */
+  flex-wrap: nowrap; /* prevent wrapping */
 }
 
 .image-grid a {
-  flex: 0 1 calc(33.33% - 20px);
+  flex: 0 0 300px; /* fixed width per image */
   text-align: center;
 }
 
-.image-grid img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  transition: transform 0.3s;
-}
-
-.image-grid img:hover {
-  transform: scale(1.03);
-}
-
-
-@media (max-width: 768px) {
-  .image-grid a {
-    flex: 0 1 calc(50% - 20px);
+@media (max-width: 1000px) {
+  .image-grid {
+    flex-wrap: wrap; /* allow wrapping on smaller screens */
   }
-}
 
-@media (max-width: 500px) {
   .image-grid a {
-    flex: 0 1 100%;
+    flex: 1 1 calc(33.33% - 20px);
   }
 }
