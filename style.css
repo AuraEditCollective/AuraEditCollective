@@ -170,7 +170,7 @@ footer {
 
 .image-grid {
   max-width: 1000px; /* or more depending on your layout */
-  margin: 40px auto;
+  margin: 0px auto;
 }
 
 .image-grid a {
