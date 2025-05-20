@@ -188,3 +188,15 @@ footer {
 .image-grid img:hover {
   transform: scale(1.03);
 }
+
+@media (max-width: 768px) {
+  .image-grid a {
+    flex: 0 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 500px) {
+  .image-grid a {
+    flex: 0 1 100%;
+  }
+}
