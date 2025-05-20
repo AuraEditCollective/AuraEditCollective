@@ -124,12 +124,15 @@ footer {
 }
 
 .title-banner {
-  background-image: url('images/summerpost.png');
+  background-image: url('images/summerpost.png'); /* if the image is at /images/summerpost.png */
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
   padding: 100px 40px;
   text-align: center;
 }
+
 
 .title-banner h1 {
   font-family: 'Poetsen One', cursive;
