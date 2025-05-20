@@ -1,1 +1,1 @@
-# AuraEditCollective
+# TheStyleCollective
