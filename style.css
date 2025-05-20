@@ -169,19 +169,25 @@ footer {
 }
 
 .image-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
   margin-top: 40px;
 }
 
-.image-grid a img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
+.image-grid a {
+  flex: 0 1 calc(33.33% - 20px);
+  text-align: center;
 }
 
-.image-grid a img:hover {
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.image-grid img:hover {
   transform: scale(1.03);
 }
