@@ -169,8 +169,12 @@ footer {
 }
 
 .image-grid {
-  max-width: 1000px; /* or more depending on your layout */
-  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 40px auto;
 }
 
 .image-grid a {
@@ -188,6 +192,7 @@ footer {
 .image-grid img:hover {
   transform: scale(1.03);
 }
+
 
 @media (max-width: 768px) {
   .image-grid a {
